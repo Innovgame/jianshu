@@ -141,12 +141,6 @@ article .content .content-left{
     /* background-color: red; */
     float: left;
 }
-article .content .content-right{
-    width: 27%;
-    height: 500px;
-    background-color: green;
-    float:right;
-}
 article .content .content-lt-top img{
     width: 688px;
     height: 270px;
@@ -210,7 +204,9 @@ article .content .content-lt-bottom .cell{
     padding: 10px 0;
     /* background-color: red; */
 }
-
+article .content .content-lt-bottom .cell dl{
+    cursor: pointer;
+}
 article .content .content-lt-bottom .cell dl dt{
     font-size: 20px;
     font-weight: bolder;
@@ -246,5 +242,26 @@ article .content .content-lt-bottom .cell .cell-bottom a{
 article .content .content-lt-bottom .cell .cell-bottom a img{
     vertical-align: middle;
 }
+
+/* content右边样式 */
+article .content .content-right{
+    width: 27%;
+    height: 500px;
+    background-color: green;
+    float:right;
+}
+article .content .content-right .top{
+    height: 270px;
+    /* background-color: red; */
+}
+article .content .content-right .top a{
+    display: block;
+    margin:0 0 1px 3px;
+}
+article .content .content-right .top a img{
+    width: 250px;
+    height: 50px;
+}
+
 /***********content样式-end***************/
 
