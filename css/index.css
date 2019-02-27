@@ -287,5 +287,62 @@ article .content .content-right .center dl dd{
     color: #b4b4b4;
     font-size: 14px;
 }
+
+/* content-right中的bottom */
+article .content .content-right .bottom{
+    /* background-color: red; */
+    margin: 30px auto;
+    padding: 5px;
+}
+article .content .content-right .bottom .header{
+    /* background-color: red; */
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+    color: #b8b8b8;
+}
+article .content .content-right .bottom .header span{
+    float: left;
+}
+article .content .content-right .bottom .header a{
+    float: right;
+    text-decoration: none;
+    color: #b8b8b8;
+}
+
+article .content .content-right .bottom .content{
+    /* background-color:red; */
+    margin: 10px 0;
+}
+article .content .content-right .bottom .content .cell{
+    width: 260px;
+    margin: 15px auto;
+    height: 60px;
+    line-height: 30px;
+    position: relative;
+}
+article .content .content-right .bottom .content .cell dl img{
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    float: left;
+    margin: 5px 5px 0 0;
+}
+article .content .content-right .bottom .content .cell dl{
+    font-size: 14px;
+    color: #b8b8b8;
+}
+article .content .content-right .bottom .content .cell dl dt{
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+}
+article .content .content-right .bottom .content .cell dl a{
+    position: absolute;
+    right: 12px;
+    top: 0;
+    text-decoration: none;
+}
+
 /***********content样式-end***************/
 
