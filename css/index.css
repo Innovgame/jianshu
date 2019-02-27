@@ -13,6 +13,8 @@ header{
     position: fixed;
     top:0;
     left: 0;
+    z-index: 999;
+    background-color: #fff;
 }
 header nav{
     width: 98%;
@@ -195,5 +197,8 @@ article .content .content-lt-center ul li a img{
     border-radius: 5px 0  0 5px;
     margin-right: 5px;
 }
+
+/* bottom */
+
 /***********content样式-end***************/
 
