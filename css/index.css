@@ -247,11 +247,12 @@ article .content .content-lt-bottom .cell .cell-bottom a img{
 article .content .content-right{
     width: 27%;
     height: 500px;
-    background-color: green;
+    /* background-color: green; */
     float:right;
 }
 article .content .content-right .top{
     height: 270px;
+    margin: 0 atuo;
     /* background-color: red; */
 }
 article .content .content-right .top a{
@@ -263,5 +264,28 @@ article .content .content-right .top a img{
     height: 50px;
 }
 
+/* content-right center */
+article .content .content-right .center{
+    margin: 20px auto;
+    width: 250px;
+    height: 80px;
+    border: 1px solid #f0f0f0;
+    /* background-color: red; */
+}
+article .content .content-right .center dl img{
+    float: left;
+    height: 60px;
+    width: 60px;
+    margin: 10px;
+}
+article .content .content-right .center dl dt{
+    padding: 10px 0 5px 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+article .content .content-right .center dl dd{
+    color: #b4b4b4;
+    font-size: 14px;
+}
 /***********content样式-end***************/
 
