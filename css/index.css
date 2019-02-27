@@ -11,6 +11,8 @@ header{
     height: 65px;
     /* background-color: red; */
     position: fixed;
+    top:0;
+    left: 0;
 }
 header nav{
     width: 98%;
@@ -28,6 +30,7 @@ header nav .nav-left img{
     height: 56px;
     width: 110px;
     padding-top: 4px;
+    cursor: pointer;
 }
 
 /* 中间 */
@@ -113,3 +116,27 @@ header nav .nav-right a:last-child img{
     vertical-align: middle;
 }
 /***********header样式-end***************/
+
+/***********content样式-end***************/
+article{
+    width: 70%;
+    height: 1200px;
+    /* background-color: red; */
+    /* opacity: 0.1; */
+    margin: 80px auto;
+}
+
+/* 内容区域 */
+article .content{
+    width: 100%;
+    height: 90%;
+    /* background-color: red;
+    opacity: 0.1; */
+}
+article .content .content-lt-top img{
+    width: 688px;
+    height: 270px;
+    border-radius: 6px;
+}
+/***********content样式-end***************/
+
